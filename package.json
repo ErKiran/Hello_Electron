@@ -4,12 +4,16 @@
   "description": "First electron project",
   "main": "index.js",
   "scripts": {
-    "electron":"electron ."
+    "electron": "electron .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Kiran Adhikari",
   "license": "MIT",
   "dependencies": {
     "electron": "^2.0.5",
-    "npm": "^6.2.0"
-  }
+    "npm": "^6.2.0",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
