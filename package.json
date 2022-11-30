@@ -9,7 +9,7 @@
   "author": "Kiran Adhikari",
   "license": "MIT",
   "dependencies": {
-    "electron": "^14.2.7",
+    "electron": "^22.0.0",
     "npm": "^6.2.0"
   }
 }
