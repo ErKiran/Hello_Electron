@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^14.2.7",
-    "npm": "^6.2.0"
+    "npm": "^7.21.0"
   }
 }
